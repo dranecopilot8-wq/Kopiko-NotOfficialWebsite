@@ -10,7 +10,7 @@ const Home = () => {
         <div className="hero-content">
           <h2>Welcome to KOPIKO</h2>
           <p>Where every sip tells a story of tradition and elegance</p>
-          <li><Link to="/menu" className={`nav-link ${getActiveClass('/menu')}`} onClick={closeMenu}>Explore menu</Link></li>
+           <Link to="/menu" className="cta-button">Explore Menu</Link>
         </div>
       </section>
 
